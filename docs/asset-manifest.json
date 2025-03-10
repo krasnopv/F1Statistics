@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77bdc845.css",
+    "main.js": "/static/js/main.fd4c5311.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/2019.jpg": "/static/media/2019.7f2ab8f44c728b8f5c1b.jpg",
+    "static/media/2020.jpg": "/static/media/2020.f6d5e0af633db97226da.jpg",
+    "static/media/2022.jpg": "/static/media/2022.6aba42cb4e8a24294583.jpg",
+    "static/media/2018.jpg": "/static/media/2018.3d81261d133fa7940d5f.jpg",
+    "static/media/Verstappen.png": "/static/media/Verstappen.df23ccf6b6278a9d04fb.png",
+    "static/media/Pérez.png": "/static/media/Pérez.a2a7db911aae6e1cb636.png",
+    "static/media/Sainz.png": "/static/media/Sainz.86219f77a8dfb0ccfc38.png",
+    "static/media/Stroll.png": "/static/media/Stroll.dc0bea38ec248372292d.png",
+    "static/media/Leclerc.png": "/static/media/Leclerc.79ac45d9947d32ea634b.png",
+    "static/media/Norris.png": "/static/media/Norris.0eb56a7634767d86c42b.png",
+    "static/media/Zhou.png": "/static/media/Zhou.5164cab7ba66f70e83ee.png",
+    "static/media/Tsunoda.png": "/static/media/Tsunoda.8649358f1b11ae42f6d3.png",
+    "static/media/Piastri.png": "/static/media/Piastri.faad7334801367ac0507.png",
+    "static/media/Russell.png": "/static/media/Russell.77c431fcb9381a651be0.png",
+    "static/media/Gasly.png": "/static/media/Gasly.a1d42382aaedbd3698dd.png",
+    "static/media/2021.jpg": "/static/media/2021.202f1b5d9c530aa5a20c.jpg",
+    "static/media/Magnussen.png": "/static/media/Magnussen.9164f511dee68b5828eb.png",
+    "static/media/Ocon.png": "/static/media/Ocon.584cbb5e3ac8c12824f2.png",
+    "static/media/de Vries.png": "/static/media/de Vries.21536f977fbfeae79544.png",
+    "static/media/Bottas.png": "/static/media/Bottas.9ebc3ce71daac24dcf31.png",
+    "static/media/Hamilton.png": "/static/media/Hamilton.49c471cfcce88723a077.png",
+    "static/media/Sargeant.png": "/static/media/Sargeant.130b0923f5b0e4bf2a89.png",
+    "static/media/Hülkenberg.png": "/static/media/Hülkenberg.c3f01ed35b17988c17cd.png",
+    "static/media/Alonso.png": "/static/media/Alonso.4e9402471a86d9838141.png",
+    "static/media/Albon.png": "/static/media/Albon.dce59c69c9f49b77d04c.png",
+    "index.html": "/index.html",
+    "main.77bdc845.css.map": "/static/css/main.77bdc845.css.map",
+    "main.fd4c5311.js.map": "/static/js/main.fd4c5311.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77bdc845.css",
+    "static/js/main.fd4c5311.js"
+  ]
+}
