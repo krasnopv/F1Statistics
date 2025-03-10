@@ -9,7 +9,7 @@ const SearchDrivers = () => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get(`http://ergast.com/api/f1/drivers?limit=1000&offset=0&FamilyName=${familyName}`);
+      const response = await axios.get(`https://ergast.com/api/f1/drivers?limit=1000&offset=0&FamilyName=${familyName}`);
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(response.data, 'text/xml');
       const driverList = xmlDoc.getElementsByTagName('Driver');
