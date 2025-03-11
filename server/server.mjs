@@ -1,4 +1,5 @@
 import express from "express";
+import bodyParder from "body-parser"
 import cors from "cors";
 import "./loadEnvironment.mjs";
 import userRoutes from "./routes/users.mjs";
