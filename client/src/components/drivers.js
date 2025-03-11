@@ -47,7 +47,7 @@ const Drivers = () => {
     useEffect(() => {
         const fetchDrivers = async () => {
             try {
-                const response = await axios.get('http://ergast.com/api/f1/2023/drivers');
+                const response = await axios.get('https://ergast.com/api/f1/2023/drivers');
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(response.data, 'text/xml');
                 const driverTable = xmlDoc.getElementsByTagName('DriverTable')[0];
@@ -78,7 +78,7 @@ const Drivers = () => {
 
         const fetchDriverStandings = async () => {
             try {
-              const response = await axios.get(`http://ergast.com/api/f1/current/driverStandings`);
+              const response = await axios.get(`https://ergast.com/api/f1/current/driverStandings`);
               const parser = new DOMParser();
               const xmlDoc = parser.parseFromString(response.data, 'text/xml');
               const standingsTable = xmlDoc.getElementsByTagName('StandingsTable')[0];
@@ -100,7 +100,7 @@ const Drivers = () => {
       
           const fetchConstructorStandings =async() => {
               try {
-                  const constructorResponse = await axios.get(`http://ergast.com/api/f1/current/constructorstandings`);
+                  const constructorResponse = await axios.get(`https://ergast.com/api/f1/current/constructorstandings`);
                   const constructorParser = new DOMParser();
                   const constructorXmlDoc = constructorParser.parseFromString(constructorResponse.data, 'text/xml');
                   const standingsTable = constructorXmlDoc.getElementsByTagName('StandingsTable')[0];
