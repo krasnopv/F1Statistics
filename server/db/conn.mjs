@@ -12,6 +12,7 @@ try {
     console.error(e);
 }
 
+console.log('conn', conn);
 let db = conn.db("f1");
 
 

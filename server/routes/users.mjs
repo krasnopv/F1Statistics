@@ -25,12 +25,12 @@ router.post("/", async (req, res) => {
     }
 })
 router.get("/", async (req, res) => {
-    //pobranie wszystkich użytkowników z bd:
+    //removing all users from db:
     User.find().exec()
         .then(async () => {
             const users = await User.find();
-            //konfiguracja odpowiedzi res z przekazaniem listy użytkowników:
-            res.status(200).send({data: users, message: "Lista użytkowników: "});
+            //res response configuration with passing user list:
+            res.status(200).send({data: users, message: "User list: "});
         })
         .catch(error => {
             res.status(500).send({message: error.message});
